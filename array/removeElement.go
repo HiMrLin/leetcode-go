@@ -8,6 +8,7 @@ func main() {
 
 }
 
+// 移除元素
 func removeElement(nums []int, val int) int {
 	slow := 0
 	for fast := 0; fast < len(nums); fast++ {
