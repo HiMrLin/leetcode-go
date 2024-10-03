@@ -1,3 +1,4 @@
+package main
 func searchRange(nums []int, target int) []int {
     leftBorder := getLeft(nums, target)
     rightBorder := getRight(nums, target)
